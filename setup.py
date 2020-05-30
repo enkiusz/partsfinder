@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="partsfinder", # Replace with your own username
-    version="0.0.1",
+    version="0.0.2",
     author="Maciej Grela",
     author_email="enki@fsck.pl",
     description="A small example package",
