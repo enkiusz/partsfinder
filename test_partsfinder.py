@@ -23,6 +23,17 @@ class PartsfinderTest(unittest.TestCase):
         v2 = "60A"
         self.assertLess(v1, v2)
 
+    def test_value_unit_mismatch(self):
+        unit_volts = self.ureg.parse_expression("V")
+        v1 = Value(raw="60 A", id=None, ureg=self.ureg)
+        try:
+            v1.unit = unit_volts
+        except Exception as e:
+            if type(e) == ValueError:
+                self.assertTrue(True)
+            else:
+                self.assertTrue(False)
+        
 if __name__ == '__main__':
     unittest.main()
 
