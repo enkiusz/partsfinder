@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="partsfinder", # Replace with your own username
-    version="0.0.4",
+    version="0.0.6",
     author="Maciej Grela",
     author_email="enki@fsck.pl",
     description="A small example package",
@@ -24,6 +24,7 @@ setuptools.setup(
     ],
     python_requires='>=3.7',
     install_requires=[
-        
+        'structlog', 'requests', 'requests_toolbelt', 'js2py', 'money', 'pint',
+        'beautifulsoup4'
     ]
 )
