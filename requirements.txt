@@ -14,5 +14,5 @@ six==1.15.0
 soupsieve==2.0.1
 structlog==20.1.0
 tzlocal==2.1
-urllib3==1.25.9
+urllib3==1.26.5
 wheel==0.34.2
