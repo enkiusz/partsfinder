@@ -4,7 +4,7 @@ chardet==3.0.4
 idna==2.9
 Js2Py==0.70
 Pint==0.12
-pip==19.2.3
+pip==21.1
 pyjsparser==2.7.1
 pytz==2020.1
 requests==2.23.0
