@@ -9,7 +9,7 @@ pyjsparser==2.7.1
 pytz==2020.1
 requests==2.23.0
 requests-toolbelt==0.9.1
-setuptools==41.2.0
+setuptools==65.5.1
 six==1.15.0
 soupsieve==2.0.1
 structlog==20.1.0
